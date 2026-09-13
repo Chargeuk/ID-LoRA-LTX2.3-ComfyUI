@@ -1,5 +1,5 @@
 ltx-core
 ltx-pipelines
-ltx-trainer
+ltx-trainer; platform_machine != "aarch64"  # shared-comfyui-patch:aarch64-ltx-trainer
 torch
 torchaudio
