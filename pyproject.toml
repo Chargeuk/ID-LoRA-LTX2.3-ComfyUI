@@ -6,7 +6,7 @@ requires-python = ">=3.10"
 dependencies = [
     "ltx-core",
     "ltx-pipelines",
-    "ltx-trainer",
+    "ltx-trainer @ git+https://github.com/ID-LoRA/ID-LoRA.git@13dc9c286a2d3c1a21a7781f9ac0fe7727ec56cd#subdirectory=ID-LoRA-2.3/packages/ltx-trainer ; platform_system != 'Darwin' and platform_machine != 'aarch64'",
     "torch",
     "torchaudio",
 ]
